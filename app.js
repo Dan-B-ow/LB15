@@ -1,7 +1,7 @@
-import { Component } from './component.js';
-import { HashRouter } from './hash-router.js';
-import { TodoListPage } from './todo-list-page.js';
-import { TodoDetailPage } from './todo-detail-page.js';
+import { Component } from './core/component.js';
+import { HashRouter } from './core/hash-router.js';
+import { TodoListPage } from './pages/todo-list-page.js';
+import { TodoDetailPage } from './pages/todo-detail-page.js';
 
 export class App extends Component {
   constructor(props = {}) {
